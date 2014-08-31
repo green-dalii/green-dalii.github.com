@@ -1,0 +1,23 @@
+@charset "utf-8";
+.h1 {
+	color: #339900;
+	float: none;
+	clear: none;
+	z-index: 1;
+	text-align: center;
+}
+.h2 {
+	color: #FFFFFF;
+	background-color: #339900;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	font-family: baumans;
+	text-align: center;
+}
+#backimg {
+	position: fixed;
+	float: left;
+	clear: left;
+	z-index: 0;
+}
