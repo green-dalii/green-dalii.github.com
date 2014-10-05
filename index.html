@@ -1,21 +1,58 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8">
 	<title>Greener-Dalii's Page</title>
-<style type="text/css">
-@import url("css/style.css");
-</style>
-<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/bangers:n4:default;abel:n4:default;aguafina-script:n4:default;abril-fatface:n4:default;damion:n4:default;bubblegum-sans:n4:default;baumans:n4:default.js" type="text/javascript"></script>
 <script src="processingjs/processing.min.js"></script>
-
+<link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<h1 class="h1">欢迎来到 <em>Greener-Dalii</em> 的世界</h1>
-<h2><em class="h2">Welcome to Greener-Dalii's Page</em></h2>
-    <p>点击<a href="http://green-dalii.github.io/greener/">这里</a>进入下一个页面</p>
+<header class="main-head">
+  <nav class="main-nav">
+	<ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#class">Art &amp; Technique</a></li>
+    <li><a href="#about">About Me</a></li>
+    </ul>
+  </nav>
+</header>
 
-<canvas data-src="processingjs/hello/hello.pde" tabindex="0" id="__processing1" width="200" height="200" style="image-rendering: -webkit-optimize-contrast !important;"></canvas>
+<main role="main">
+	<div class="head" id="home">
+    <img src="image/background.jpg" alt=""/>
+<h1>Greener-Dalii's Page</h1>
+    <h4>欢迎！这是我制作的个人网站，希望与大家交流我所感兴趣的一些东西。我喜欢艺术与技术，并在尝试让这二者碰撞产生灵感的火花。</h4>
+    <h5>Welcome!This is my personal page,I hope to share some interesting tings I interested.I love Art &amp; technique,and try my best to make both collide to enjoy the inspirational spark.</h5>
+    </div>
+	
+  <div id="class"> 
+  	<section>
+    <h2>Art</h2>
+    <ul>
+    	<li><a href="">摄影-后期处理</a></li>
+        <li><a href="">平面设计-PS-AI</a></li>
+        <li><a href="">网页设计-HTML5-CSS3</a></li>
+        <li><a href="">3D设计-室内设计-建筑设计-SketchUp</a></li>
+    </ul>
+    </section>
+    <section>
+    <h2>Technique</h2>
+    <ul>
+    	<li><a href="">可视化编程-Processing</a></li>
+        <li><a href="">并发编程-Erlang</a></li>
+        <li><a href="">Python</a></li>
+    </ul>
+    </section>
+  </div>
+    
+  <div id="about">
+    <article class="about-me">
+    	<p>我是Greener-Dalii，是一名学生。我热爱新奇的事物，向往Geek精神，同时也十分喜爱艺术和视觉传达。我想通过我的尝试，将这二者融合起来，创造新的东西。</p>
+        <p>欢迎交流，我的邮箱是654534332 at qq.com</p>
+    </article>
+  </div>
 
+</main>
+<footer class="main-foot" role="complementary"><p><small>2014&copy;Greener-Dalii Copyright.</small></p></footer>
 </body>
 </html>
